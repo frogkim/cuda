@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "src\test\test.vcxproj", "{5200BEC5-8BD0-4A74-84B9-A1995D214EA9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cudalib", "src\cudalib\cudalib.vcxproj", "{588AAA34-722E-4CA1-AF1F-035F80952CEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5200BEC5-8BD0-4A74-84B9-A1995D214EA9}.Debug|x64.ActiveCfg = Debug|x64
+		{5200BEC5-8BD0-4A74-84B9-A1995D214EA9}.Debug|x64.Build.0 = Debug|x64
+		{5200BEC5-8BD0-4A74-84B9-A1995D214EA9}.Release|x64.ActiveCfg = Release|x64
+		{5200BEC5-8BD0-4A74-84B9-A1995D214EA9}.Release|x64.Build.0 = Release|x64
+		{588AAA34-722E-4CA1-AF1F-035F80952CEA}.Debug|x64.ActiveCfg = Debug|x64
+		{588AAA34-722E-4CA1-AF1F-035F80952CEA}.Debug|x64.Build.0 = Debug|x64
+		{588AAA34-722E-4CA1-AF1F-035F80952CEA}.Release|x64.ActiveCfg = Release|x64
+		{588AAA34-722E-4CA1-AF1F-035F80952CEA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {119E4595-94DF-4EDA-8EB8-08BAD8BE5225}
+	EndGlobalSection
+EndGlobal
