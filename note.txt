@@ -1,0 +1,8 @@
+1. nvcc fatal : Unknown option '-fPIC'
+    - change option '-fPIC' to '-Xcompiler -fPIC'
+    - Ref: https://forums.developer.nvidia.com/t/building-a-shared-library-linux-mac-based-on-the-cuda-sdk-common-mk-file/7242
+
+2. /usr/bin/ld: cannot find -llibcuda
+    - change shared binary file's name as "lib"<name>".so", and
+    - enter the <name> in the Makefile as "-l<name>"
+    

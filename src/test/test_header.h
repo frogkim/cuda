@@ -1,18 +1,10 @@
-<<<<<<< HEAD
 #ifndef TEST_HEADER_H_
 #define TEST_HEADER_H_
 
 #include "cudalib.h"
-#include <windows.h>
 #include <stdio.h>
+#include <time.h>
+#include <string.h>
+#include <stdint.h>
 
-=======
-#ifndef TEST_HEADER_H_
-#define TEST_HEADER_H_
-
-#include "cudalib.h"
-#include <windows.h>
-#include <stdio.h>
-
->>>>>>> 061d93e (create Makefile)
 #endif

@@ -1,5 +1,4 @@
 ﻿#include "cudalib_header.h"
-
 extern struct _dev_data dev_data;
 
 bool isError(void)

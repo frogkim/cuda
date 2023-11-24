@@ -5,3 +5,6 @@
 *.db-shm
 *.db-wal
 *.opendb
+*.o
+*.so
+*.

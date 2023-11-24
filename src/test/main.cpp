@@ -1,13 +1,10 @@
 #include "test_header.h"
-#include <time.h>
+
 
 int main()
 {
     struct timespec t_start, t_end;
-    
-    time_t sec;
-    long nano;
-    
+
     const int arraySize = 5;
     const int a[arraySize] = { 1, 2, 3, 4, 5 };
     const int b[arraySize] = { 1, 2, 3, 4, 5 };
@@ -32,7 +29,7 @@ int main()
         t_end.tv_nsec += 1000000000;
         t_end.tv_sec -= 1;
     }
-    printf("sec: %lld, nano: %ld\n", t_end.tv_sec, t_end.tv_nsec);
+    printf("sec: %ld, nano: %ld\n", t_end.tv_sec, t_end.tv_nsec);
 
     printf("{1,2,3,4,5} + {10,20,30,40,50} = {%d,%d,%d,%d,%d}\n",
         c[0], c[1], c[2], c[3], c[4]);
@@ -53,7 +50,7 @@ int main()
         t_end.tv_nsec += 1000000000;
         t_end.tv_sec -= 1;
     }
-    printf("sec: %lld, nano: %ld\n", t_end.tv_sec, t_end.tv_nsec);
+    printf("sec: %ld, nano: %ld\n", t_end.tv_sec, t_end.tv_nsec);
 
     printf("{%d,%d,%d,%d,%d}\n",
         d[0], d[1], d[2], d[3], d[4]);
